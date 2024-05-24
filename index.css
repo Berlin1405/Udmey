@@ -12,6 +12,7 @@ body{
     align-items: center;
     border-bottom: solid black 1px;
     gap: 15px;
+   
 }
 .nav-title{
     color: #A435F0;
@@ -21,7 +22,13 @@ body{
 }
 .navbar_ryt{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+    
+}
+.navbar_ryt:hover{
+    color: #A435F0;
 }
 .navbar_mid{
     padding: 10px;
@@ -29,6 +36,7 @@ body{
     border-radius: 30px;
     width: 600px;
     display: flex;
+    align-items: center;
     gap: 10px;
     
 
@@ -44,5 +52,38 @@ body{
 .navbar_left{
     display: flex;
     gap: 15px;
+    align-items: center;
 
+}
+.navbar_left>p:hover{
+    color: #A435F0;
+}
+.list_items{
+    position: relative;
+    display: inline-block;
+    align-items: center;  
+}
+.dropdown{
+    
+    display:none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdown>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding:  6px;
+    background-color: #f1f1f1;
+}
+.list_items:hover .dropdown{
+    display: block;
+}
+.dropdown>a:hover{
+    color: #A435F0;
+}
+.list_items>p{
+    border: none;
+
+    
 }
