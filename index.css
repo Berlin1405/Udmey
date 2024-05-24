@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gabarito','sans-serif';
+}
+.nav-bar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+    gap: 15px;
+}
+.nav-title{
+    color: #A435F0;
+    display: flex;
+    
+    
+}
+.navbar_ryt{
+    display: flex;
+    flex-direction: row;
+}
+.navbar_mid{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 600px;
+    display: flex;
+    gap: 10px;
+    
+
+}
+.navbar_mid>input{
+    font-size: 16px;
+    border: none;
+    width: 100%;
+}
+.navbar_mid>input:focus{
+    outline: none;
+}
+.navbar_left{
+    display: flex;
+    gap: 15px;
+
+}
