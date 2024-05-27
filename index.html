@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="https://s.udemycdn.com/meta/default-meta-image-v2.png">
     <title>Udemy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,7 +19,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
   </head>
   <body>
     <!-- NavBar -->
@@ -75,6 +77,385 @@
         </svg>
       </div>
     </div>
+    <!-- Categories -->
+    <div class="cat">
+      <p>Development</p>
+      <p>Business</p>
+      <p>Finance & Accounting</p>
+      <p>IT Software</p>
+      <p>Office Productivity</p>
+      <p>Personal Development</p>
+      <p>Design</p>
+      <p>Marketing</p>
+      <p>Health & Finance</p>
+      <p>Music</p>
+    </div>
+    <!-- image -->
+    <div class="sale-image">
+      <img id="sale-image-src" src="./images/pic_01.png" alt="">
+      
+      <input class="p_btn" type="image" src="https://img.icons8.com/?size=100&id=26147&format=png&color=000000">
+      <input class="n_btn" type="image" src="https://img.icons8.com/?size=100&id=26147&format=png&color=000000">
     
+    </div>
+    <!-- Recom  -->
+    <div class="recommended">
+      <h1 class="recommended_title">Recommended for you</h1>
+      <p>Let's Start learn</p>
+      <div class="recommended_container">
+        <div class="course_card">
+          <img src="./images/fig.webp"  class="vis" alt="figma">
+          <h3>Figma UI Ux Design Essentials</h3>
+          <p>Daniel Walter Scott</p>
+          <p>4.7⭐⭐⭐⭐</p>
+          <p>&#8377 3,699 <del>4,999</del></p>
+          <p class="best_seller">Bestseller</p>
+          <!--  -->
+          <section class="tiptool">
+            <h1>Figma UI UX Design Essentials</h1>
+            <div class="tiptool_s1">
+              <p class="best_seller">Bestseller</p>
+              <p class="up">Updated March 2024</p>
+            </div>
+            <div class="tiptool_s2">
+              <p>28 total hours</p>
+              <p>.All Levels</p>
+              <p>.Subtitles</p>
+            </div>
+            <p>Become a UI/Ux Designer! Master mobile and Web Desgin, User Interface + User Experience (UL/UX Design),HTML,and CSS</p>
+            <ul>
+              <li>How to begin working as a UX Designer using Figma.</li>
+              <li>How to use Figma for Essential UX Design & UI Design.</li>
+              <li>How to make fully interactive prototypes.</li>
+            </ul>
+            <button class="tiptool_btn">Add to cart</button>
+      
+          </section>
+          <!--  -->
+        </div>
+        <div class="course_card">
+          <img src="./images/n-1.webp" alt="figma">
+          <h3>Complete Web & Mobile Designer:UI/UX,Figma,+more</h3>
+          <p>Andrei Neagoie,Daniel Schifano</p>
+          <p>4.5⭐⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,999</del></p>
+          <p class="best_seller">Bestseller</p>
+
+          <section class="tiptool">
+            <h1>Complete Web & Mobile Designer: UI/ UX, Figma ,+more</h1>
+            <div class="tiptool_s1">
+              <p class="best_seller">Bestseller</p>
+              <p class="up">Updated May 2024</p>
+            </div>
+            <div class="tiptool_s2">
+              <p>12 total hours</p>
+              <p>.All Levels</p>
+              <p>.Subtitles</p>
+            </div>
+            <p>Use Figma to get a job  UI Design,User Interface,User Experience design,Ux Design & Web Design</p>
+            <ul>
+              <li>Build beautifully designed web and mobile project for your customer using modern tools used by top companies in 2023</li>
+              <li>Get hired as a Designer or become a freelancer that can work from anywhere and for anyone.Designers are in high demand!</li>
+              <li>Includes 100+ assets and premium design templates that you can keep and use to customize for all your future projects.</li>
+            </ul>
+           
+            
+            <button class="tiptool_btn">Add to cart</button>
+      
+          </section>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/NEXT-js.webp" alt="Next.js 14 & React-The Complete Guid">
+          <h3>Next.js 14 & React-The Complete Guid</h3>
+          <p>Maximilian Schwarzmuller</p>
+          <p>4.7⭐⭐⭐⭐</p>
+          <p>&#8377 4,499 <del>5,000</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/boot.webp" alt="The Web Developer Bootcamp 2024">
+          <h3>The Web Developer Bootcamp 2024</h3>
+          <p>Colt Steele</p>
+          <p>3.9⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,000</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/blende.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Blender Animation & Rigging: Bring Your Creation To Life</h3>
+          <p>GameDev.tv Team,Grant Abbitt</p>
+          <p>4.8⭐⭐⭐⭐</p>
+          <p>&#8377 2,899 <del>3,500</del></p>
+        </div>
+      </div>
+    </div>
+    <!-- Topic -->
+    <div class="topics">
+      <h1 class="topics_title">Topics recommended for you</h1>
+      <div class="topics_container">
+        <p>Web Development</p>
+        <p>Node.js</p>
+        <p>JavaScript</p>
+        <p>React JS</p>
+        <p>Python</p>
+        <p>PHP(Programming Language)</p>
+        <p>Adobe illustrator</p>
+        <p>MongoDb</p>
+        <p>TypeScript</p>
+        <p>Rust</p>
+        <p>Front-End Development</p>
+        <p>CSS</p>
+      </div>
+    </div>
+    <!-- Popular -->
+    <div class="popular">
+      <h1 class="popular_title">Popular for Web Developers </h1>
+      <p class="popular_subtitle">Pick the best</p>
+      <div class="popular_Container">
+        <div class="course_card">
+          <img src="./images/The Complete JavaScript Course 2023_ From Zero to Expert!.jpg" alt="figma">
+          <h3>The Complete JavaScript Course 2024:From Zero to Expert</h3>
+          <p>Jonas Schmedtmann</p>
+          <p>4.7⭐⭐⭐⭐</p>
+          <p>&#8377 3,699 <del>4,999</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/n-2.webp" alt="figma">
+          <h3>Python,Flask Framework And Django Course For Beginners</h3>
+          <p>Horizon Tech</p>
+          <p>4.4⭐⭐⭐⭐</p>
+          <p>&#8377 2,499 <del>4,999</del></p>
+        </div>
+
+
+        
+
+        <div class="course_card">
+          <img src="./images/redux.webp" alt="Next.js 14 & React-The Complete Guid">
+          <h3>React-The Complete Guide 2024(incl.Next.js,redux)</h3>
+          <p>Academind by Maximilian Schwarzmuller</p>
+          <p>4.6⭐⭐⭐⭐</p>
+          <p>&#8377 3,699 <del>5,000</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/sql.webp" alt="The Web Developer Bootcamp 2024">
+          <h3>Desarrollo Web Completo con HTML5, CSS3,JS AJAX PHP y MySQL</h3>
+          <p>Juan Pablo De la torre Valdez</p>
+          <p>4.7⭐⭐⭐</p>
+          <p>&#8377 2,699 <del>4,000</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/node.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Node.js,Express,MongoDB & More:The Complete Bootcamp 2024</h3>
+          <p>Jonas Schmedtmann</p>
+          <p>4.6⭐⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,500</del></p>
+        </div>
+        
+      </div>
+    </div> 
+
+    <!-- Learns -->
+    <div class="learn">
+      <h1 class="learn_title">Learners are viewing</h1>
+      <div class="learn_Container">
+        <div class="course_card">
+          <img src="./images/100.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>100 Days of Code:The Complete Python Pro Bootcamp</h3>
+          <p>Dr. Angela Yu</p>
+          <p>4.7⭐⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/n-3.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>DevOps Beginners to Advanced with Projects</h3>
+          <p>Imran Teli</p>
+          <p>4.6⭐⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/Complete-Python-Pro-Bootcamp-300x200.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>The Complete Python Bootcamp From Zero to Hero</h3>
+          <p>Jose Portilla,Pierian Training</p>
+          <p>4.6⭐⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/aws.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Ultimate AWS Certified Solutions Architect Associate SAA-C03</h3>
+          <p>Jonas Schmedtmann</p>
+          <p>4.7⭐⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/chat.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Machine Learning A-Z:AI,Python& R + ChatGPT Prize[2024]</h3>
+          <p>Jonas Schmedtmann</p>
+          <p>4.6⭐⭐⭐⭐</p>
+          <p>&#8377 3,699 <del>4,500</del></p>
+        </div>
+
+      </div>
+    </div>
+    <!-- Web Development -->
+    <div class="featured">
+      <h1 class="featured_title">Featured courses in <a href="#">Web Development</a></h1>
+      <div class="featured_Container">
+        <div class="course_card">
+          <img src="./images/web-01.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Web Development Masterclass-Online Certification Course</h3>
+          <p>YouAccel Training</p>
+          <p>4.6⭐⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/n-4.jpg" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Internet and Web Development Fundamentals</h3>
+          <p>YouAccel Training</p>
+          <p>4.3⭐⭐⭐⭐</p>
+          <p>&#8377 1,099 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/web-2.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Practical Web Development:22 Courses in 1</h3>
+          <p>Creative Online School</p>
+          <p>4.3⭐⭐⭐⭐</p>
+          <p>&#8377 3,299 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/web-3.jpg" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>The Complete Web Developer Course 3.0</h3>
+          <p>Rob Percival,Codestar</p>
+          <p>4.5⭐⭐⭐⭐</p>
+          <p>&#8377 4,499 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/web-4.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>How the Internet Works & the Web Development Process</h3>
+          <p>YouAccel Training</p>
+          <p>4.2⭐⭐⭐⭐</p>
+          <p>&#8377 1,299 <del>4,500</del></p>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- RUSt -->
+
+    <div class="featured">
+      <h1 class="featured_title">Featured courses in <a href="#">Rust Programming</a></h1>
+      <div class="featured_Container">
+        <div class="course_card">
+          <img src="https://img-c.udemycdn.com/course/240x135/1854836_63e2_2.jpg" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Ultimate Rust Crash Course</h3>
+          <p>Nathan Stocks</p>
+          <p>4.6⭐⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="https://img-c.udemycdn.com/course/240x135/4474464_fa26_2.jpg" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Rust Programming For Beginners</h3>
+          <p>Jayson Lennon</p>
+          <p>4.4⭐⭐⭐⭐</p>
+          <p>&#8377 2,099 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="https://img-b.udemycdn.com/course/240x135/624252_3505_3.jpg" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Learn Rust by Building Real Application</h3>
+          <p>Divakar P</p>
+          <p>5.0⭐⭐⭐⭐⭐</p>
+          <p>&#8377 7,999 <del>9,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="https://img-c.udemycdn.com/course/240x135/2999814_f337.jpg" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Building web APIs with Rush(advanced)</h3>
+          <p>Jan Schaffranek</p>
+          <p>4.3⭐⭐⭐⭐</p>
+          <p>&#8377 4,499 <del>4,500</del></p>
+        </div>
+
+        <div class="course_card">
+          <img src="./images/r-3.webp" alt="Blender Animation & Rigging: Bring Your Creation To Life">
+          <h3>Rust & WebAssembly with JS(TS)- The Practical Guide</h3>
+          <p>Filip Jerga,Eincode by Filip Jerga</p>
+          <p>4.5⭐⭐⭐⭐</p>
+          <p>&#8377 3,099 <del>4,500</del></p>
+        </div>
+        
+      </div>
+    </div>
+   
+  <!-- footer -->
+    
+     <div class="footer_s1">
+      <div class="">
+      <h2>Teach the world online</h2>
+      <p>Create an online video course, reach students across the global, and earn money</p>
+      </div>
+      <div id="footer-button-1">       
+        <a href="#">Teach on Udemy</a>
+      </div>
+     </div>
+    <div class="footer_s2">
+      <h2>Top companies choose <a href="#">Udemy Business</a> to build in-demand career skills.</h2>
+      <div class="last_img">
+        <img src="https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg" alt="">
+        <img src="https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg" alt="">
+        <img src="https://s.udemycdn.com/partner-logos/v4/box-light.svg" alt="">
+        <img src="https://s.udemycdn.com/partner-logos/v4/netapp-light.svg" alt="">
+        <img src="https://s.udemycdn.com/partner-logos/v4/eventbrite-light.svg" alt="">
+      </div>
+    </div>
+    <section class="footer">
+        <div class="footer-flex">
+            <div class="footer-grid">
+                <ul>
+                    <li><a href="#">Udemy Business</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Teach on Udemy</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Get the app</a></li>
+                    <li><a href="#">Help and Support</a></li>
+                    <li><a href="#">Cookie settings</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Affiliate</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Accesibility statement</a></li>
+                </ul>
+            </div>
+            <div id="footer-button">
+                <img src="/images/web4-removebg-preview (1).png" alt="Web">
+                <a href="#">English</a>
+            </div>
+        </div>
+        <div id="bottom">
+            <img src="/images/udemy2-removebg-preview.png" alt="Udemy">
+            <div id="copyright">
+              
+                <p>&copy 2022 Udemy, Inc.</p>
+            </div>
+        </div>
+    </section>
+
+   
   </body>
 </html>
